@@ -8,6 +8,7 @@ import { sidebarLinks } from "@/constants";
 
 function Bottombar() {
   const pathname = usePathname();
+  
 
   return (
     <section className='bottombar'>

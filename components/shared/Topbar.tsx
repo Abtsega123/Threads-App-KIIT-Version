@@ -11,6 +11,12 @@ function Topbar() {
         <p className='text-heading3-bold text-light-1 max-xs:hidden'>Threads</p>
       </Link>
 
+      <Link href='https://chat.vercel.ai/' className='flex items-center gap-4'>
+        <Image src='/robot.svg' alt='logo' width={28} height={28} />
+        <p className='text-heading3-bold text-light-1 max-xs:hidden'>Chat Center</p>
+      </Link>
+
+
       <div className='flex items-center gap-1'>
         <div className='block md:hidden'>
           <SignedIn>
